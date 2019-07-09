@@ -21,7 +21,10 @@ setup(name='numpy-syncer',
       packages=['numpy_syncer'],
       install_requires=[
             'peewee-syncer>=0.2.2',
-            'numpy>=1.16.4'
+            'numpy>=1.16.4',
+            'aiofiles>=0.4.0',
+            'contexttimer>=0.3.3',
+            'humanize>=0.5.1'
       ]
 )
 
