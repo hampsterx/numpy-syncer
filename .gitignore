@@ -1,0 +1,16 @@
+dist
+*.egg-info
+.idea
+*.pyc
+build
+notes.txt
+
+.env
+
+*.conf
+*.json
+*.sh
+*.db
+.tox
+
+temp.py
